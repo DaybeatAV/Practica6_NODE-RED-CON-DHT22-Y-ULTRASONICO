@@ -194,19 +194,19 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 
 2. El segundo paso será agregar las siguientes librerias dentro del software para que se pueda realizar la práctica:
 
-- DHT sensor library for ESPx
+- ```DHT sensor library for ESPx```
 
-- ArduinoJson
+- ```ArduinoJson```
 
-- WiFi
+- ```WiFi```
 
-- PubSubClient
+- ```PubSubClient```
 
-![]()
+![](https://github.com/DaybeatAV/Practica6_NODE-RED-CON-DHT22-Y-ULTRASONICO/blob/main/Pr%C3%A1ctica%206%20Librer%C3%ADas%20utilizadas.png)
 
 3. Después procederemos a insertar y realizar la conexión de los componentes ```HC-SR04 ULTRASONIC Distance sensor``` y ```DHT11``` con la tarjeta ```ESP32```:
 
-![]()
+![](https://github.com/DaybeatAV/Practica6_NODE-RED-CON-DHT22-Y-ULTRASONICO/blob/main/Pr%C3%A1ctica%206%20Conexiones%20utilizadas.png)
 
 ## INSTRUCCIONES PARA INSTALACION DE **node-red**
 
@@ -233,7 +233,7 @@ npm install -g --unsafe-perm node-red
 node-red
 ```
 
-![]()
+![](https://github.com/DaybeatAV/Practica6_NODE-RED-CON-DHT22-Y-ULTRASONICO/blob/main/Pr%C3%A1ctica%206%20Arranque%20CMD.png)
 
 
 4.- Para abrir la herramienta ```Node-Red``` nos vamos al explorador de red y buscamos el siguente link: 
@@ -259,14 +259,14 @@ localhost:1880
 2.- Configurar el bloque con el puerto mqtt con el ip 52.29.87.71 para hacer el enlace con el servidor que utilizaremos:
 
 
-![]()
+![](https://github.com/DaybeatAV/Practica6_NODE-RED-CON-DHT22-Y-ULTRASONICO/blob/main/Pr%C3%A1ctica%206%20Configuraci%C3%B3n%20mqtt.png)
 
 
 
 3.- Agregaremos un bloque *json* y lo configuraremos como se observa debajo:
 
 
-![]()
+![](https://github.com/DaybeatAV/Practica6_NODE-RED-CON-DHT22-Y-ULTRASONICO/blob/main/Pr%C3%A1ctica%206%20Configuraci%C3%B3n%20json.png)
 
 
 
@@ -301,7 +301,7 @@ return msg;
 7.- Un ejemplo de la conexión necesario entre los bloques es la siguiente:
 
 
-![]()
+![](https://github.com/DaybeatAV/Practica6_NODE-RED-CON-DHT22-Y-ULTRASONICO/blob/main/Pr%C3%A1ctica%206%20Conexiones%20utilizadas%20en%20Node-Red.png)
 
 
 
@@ -315,29 +315,32 @@ return msg;
 
 4. Nos trasladaremos al navegador donde este abierto nuestro node-red y apretar el boton *instanciar*
 
-![]()
+![](https://github.com/DaybeatAV/Practica6_NODE-RED-CON-DHT22-Y-ULTRASONICO/blob/main/Pr%C3%A1ctica%206%20Acci%C3%B3n%20de%20Deploy.png)
 
 5. En el *dash board* apretar en el siguiente boton:
 
-![]()
+![](https://github.com/DaybeatAV/Practica6_NODE-RED-CON-DHT22-Y-ULTRASONICO/blob/main/Pr%C3%A1ctica%206%20Acci%C3%B3n%20de%20dash%20board.png)
 
 ## Resultados.
 Después de realizar las instrucciones de operación se deberán reflejar los datos simultaneos entre el simulador ```Wokwi``` y el programa ```Node-Red```.
 
 #SIMULADOR DE WOKWI
 
-![]()
+![](https://github.com/DaybeatAV/Practica6_NODE-RED-CON-DHT22-Y-ULTRASONICO/blob/main/Pr%C3%A1ctica%206%20Resultado%20final%20Wokwi.png)
 
 
 #NODE-RED. TABLAS DE DATOS Y GRAFICOS
 
 
-![]()
+![](https://github.com/DaybeatAV/Practica6_NODE-RED-CON-DHT22-Y-ULTRASONICO/blob/main/Pr%C3%A1ctica%206%20Resultado%20final%20Node-Red.png)
 
 
 
 ### Evidencias
 
+https://github.com/user-attachments/assets/bc6e0d5b-4992-4828-911d-079e24b186fa
+
+- Dentro de los archivos del repositorio hay un video que muestra la operación simultánea entre el programa Node-Red y el software Wokwi en la práctica
 
 # Créditos
 
